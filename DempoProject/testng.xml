@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name = "com.mystore.utility.ListenerClass"></listener>
+</listeners>  
+<test thread-count="5" name="Test">
+    <classes>
+      <class name="com.mystore.TestCases.LoginPageTest"/>
+      <class name="com.mystore.TestCases.EndToEndTest"/>
+      <class name="com.mystore.TestCases.AddToCartPageTest"/>
+      <class name="com.mystore.TestCases.SearchResultPageTest"/>
+      <class name="com.mystore.TestCases.OrderPageTest"/>
+      <class name="com.mystore.TestCases.AccountCreationPageTest"/>
+      <class name="com.mystore.TestCases.IndexPageTest"/>
+      <class name="com.mystore.TestCases.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

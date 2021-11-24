@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="17" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-23T20:39:41 IST" name="Suite" finished-at="2021-11-23T20:44:26 IST" duration-ms="285652">
+    <groups>
+    </groups>
+    <test started-at="2021-11-23T20:39:41 IST" name="Test" finished-at="2021-11-23T20:44:26 IST" duration-ms="285652">
+      <class name="com.mystore.TestCases.EndToEndTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.TestCases.EndToEndTest@55a147cc]" started-at="2021-11-23T20:40:39 IST" name="setup" finished-at="2021-11-23T20:41:13 IST" duration-ms="33258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EndToEndTesting()[pri:0, instance:com.mystore.TestCases.EndToEndTest@55a147cc]" started-at="2021-11-23T20:41:13 IST" name="EndToEndTesting" finished-at="2021-11-23T20:41:59 IST" duration-ms="46103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEndTesting -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.TestCases.EndToEndTest@55a147cc]" started-at="2021-11-23T20:41:59 IST" name="teardown" finished-at="2021-11-23T20:41:59 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.mystore.TestCases.EndToEndTest@55a147cc]" started-at="2021-11-23T20:41:59 IST" name="aftermethod" finished-at="2021-11-23T20:41:59 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.mystore.TestCases.EndToEndTest -->
+      <class name="com.mystore.TestCases.OrderPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.TestCases.OrderPageTest@d86a6f]" started-at="2021-11-23T20:42:40 IST" name="setup" finished-at="2021-11-23T20:42:50 IST" duration-ms="9555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateOrderPageTest()[pri:0, instance:com.mystore.TestCases.OrderPageTest@d86a6f]" started-at="2021-11-23T20:42:50 IST" name="ValidateOrderPageTest" finished-at="2021-11-23T20:43:08 IST" duration-ms="18235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateOrderPageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.TestCases.OrderPageTest@d86a6f]" started-at="2021-11-23T20:43:08 IST" name="teardown" finished-at="2021-11-23T20:43:08 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.mystore.TestCases.OrderPageTest@d86a6f]" started-at="2021-11-23T20:43:08 IST" name="aftermethod" finished-at="2021-11-23T20:43:09 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.mystore.TestCases.OrderPageTest -->
+      <class name="com.mystore.TestCases.SearchResultPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.TestCases.SearchResultPageTest@63376bed]" started-at="2021-11-23T20:42:24 IST" name="setup" finished-at="2021-11-23T20:42:36 IST" duration-ms="11906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckingTheProduct()[pri:0, instance:com.mystore.TestCases.SearchResultPageTest@63376bed]" started-at="2021-11-23T20:42:36 IST" name="CheckingTheProduct" finished-at="2021-11-23T20:42:40 IST" duration-ms="3690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingTheProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.TestCases.SearchResultPageTest@63376bed]" started-at="2021-11-23T20:42:40 IST" name="teardown" finished-at="2021-11-23T20:42:40 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.mystore.TestCases.SearchResultPageTest@63376bed]" started-at="2021-11-23T20:42:40 IST" name="aftermethod" finished-at="2021-11-23T20:42:40 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.mystore.TestCases.SearchResultPageTest -->
+      <class name="com.mystore.TestCases.AddToCartPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.TestCases.AddToCartPageTest@738dc9b]" started-at="2021-11-23T20:41:59 IST" name="setup" finished-at="2021-11-23T20:42:13 IST" duration-ms="13512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidatingAddtocartpage()[pri:0, instance:com.mystore.TestCases.AddToCartPageTest@738dc9b]" started-at="2021-11-23T20:42:13 IST" name="ValidatingAddtocartpage" finished-at="2021-11-23T20:42:24 IST" duration-ms="10684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingAddtocartpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.TestCases.AddToCartPageTest@738dc9b]" started-at="2021-11-23T20:42:24 IST" name="teardown" finished-at="2021-11-23T20:42:24 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.mystore.TestCases.AddToCartPageTest@738dc9b]" started-at="2021-11-23T20:42:24 IST" name="aftermethod" finished-at="2021-11-23T20:42:24 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.mystore.TestCases.AddToCartPageTest -->
+      <class name="com.mystore.TestCases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.TestCases.HomePageTest@298a5e20]" started-at="2021-11-23T20:43:52 IST" name="setup" finished-at="2021-11-23T20:44:01 IST" duration-ms="9014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateMyWishListTest()[pri:0, instance:com.mystore.TestCases.HomePageTest@298a5e20]" started-at="2021-11-23T20:44:01 IST" name="ValidateMyWishListTest" finished-at="2021-11-23T20:44:07 IST" duration-ms="6506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMyWishListTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.TestCases.HomePageTest@298a5e20]" started-at="2021-11-23T20:44:07 IST" name="teardown" finished-at="2021-11-23T20:44:07 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.mystore.TestCases.HomePageTest@298a5e20]" started-at="2021-11-23T20:44:07 IST" name="aftermethod" finished-at="2021-11-23T20:44:08 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.TestCases.HomePageTest@298a5e20]" started-at="2021-11-23T20:44:08 IST" name="setup" finished-at="2021-11-23T20:44:17 IST" duration-ms="9241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateOrderHistoryandDetailsTest()[pri:0, instance:com.mystore.TestCases.HomePageTest@298a5e20]" started-at="2021-11-23T20:44:17 IST" name="ValidateOrderHistoryandDetailsTest" finished-at="2021-11-23T20:44:26 IST" duration-ms="9008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateOrderHistoryandDetailsTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.TestCases.HomePageTest@298a5e20]" started-at="2021-11-23T20:44:26 IST" name="teardown" finished-at="2021-11-23T20:44:26 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.mystore.TestCases.HomePageTest@298a5e20]" started-at="2021-11-23T20:44:26 IST" name="aftermethod" finished-at="2021-11-23T20:44:26 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.mystore.TestCases.HomePageTest -->
+      <class name="com.mystore.TestCases.IndexPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.TestCases.IndexPageTest@2e385cce]" started-at="2021-11-23T20:43:27 IST" name="setup" finished-at="2021-11-23T20:43:40 IST" duration-ms="13067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidatingTheLogo()[pri:0, instance:com.mystore.TestCases.IndexPageTest@2e385cce]" started-at="2021-11-23T20:43:40 IST" name="ValidatingTheLogo" finished-at="2021-11-23T20:43:40 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingTheLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.TestCases.IndexPageTest@2e385cce]" started-at="2021-11-23T20:43:40 IST" name="tearDown" finished-at="2021-11-23T20:43:40 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.mystore.TestCases.IndexPageTest@2e385cce]" started-at="2021-11-23T20:43:40 IST" name="aftermethod" finished-at="2021-11-23T20:43:41 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.TestCases.IndexPageTest@2e385cce]" started-at="2021-11-23T20:43:41 IST" name="setup" finished-at="2021-11-23T20:43:51 IST" duration-ms="10603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidatingTheTitle()[pri:0, instance:com.mystore.TestCases.IndexPageTest@2e385cce]" started-at="2021-11-23T20:43:51 IST" name="ValidatingTheTitle" finished-at="2021-11-23T20:43:51 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingTheTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.TestCases.IndexPageTest@2e385cce]" started-at="2021-11-23T20:43:51 IST" name="tearDown" finished-at="2021-11-23T20:43:51 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.mystore.TestCases.IndexPageTest@2e385cce]" started-at="2021-11-23T20:43:51 IST" name="aftermethod" finished-at="2021-11-23T20:43:52 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.mystore.TestCases.IndexPageTest -->
+      <class name="com.mystore.TestCases.LoginPageTest">
+        <test-method is-config="true" signature="loadconfig()[pri:0, instance:com.mystore.TestCases.LoginPageTest@65c7a252]" started-at="2021-11-23T20:39:39 IST" name="loadconfig" finished-at="2021-11-23T20:39:41 IST" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadconfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.TestCases.LoginPageTest@65c7a252]" started-at="2021-11-23T20:39:41 IST" name="setup" finished-at="2021-11-23T20:40:25 IST" duration-ms="44548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidationOfLoginPage()[pri:0, instance:com.mystore.TestCases.LoginPageTest@65c7a252]" started-at="2021-11-23T20:40:25 IST" name="ValidationOfLoginPage" finished-at="2021-11-23T20:40:35 IST" duration-ms="9685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidationOfLoginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.TestCases.LoginPageTest@65c7a252]" started-at="2021-11-23T20:40:35 IST" name="teardown" finished-at="2021-11-23T20:40:36 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.mystore.TestCases.LoginPageTest@65c7a252]" started-at="2021-11-23T20:40:36 IST" name="aftermethod" finished-at="2021-11-23T20:40:39 IST" duration-ms="2785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.mystore.TestCases.LoginPageTest -->
+      <class name="com.mystore.TestCases.AccountCreationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.TestCases.AccountCreationPageTest@5ab956d7]" started-at="2021-11-23T20:43:09 IST" name="setup" finished-at="2021-11-23T20:43:21 IST" duration-ms="12354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreatingAccTest()[pri:0, instance:com.mystore.TestCases.AccountCreationPageTest@5ab956d7]" started-at="2021-11-23T20:43:21 IST" name="CreatingAccTest" finished-at="2021-11-23T20:43:26 IST" duration-ms="5084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatingAccTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.TestCases.AccountCreationPageTest@5ab956d7]" started-at="2021-11-23T20:43:26 IST" name="teardown" finished-at="2021-11-23T20:43:26 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.mystore.TestCases.AccountCreationPageTest@5ab956d7]" started-at="2021-11-23T20:43:26 IST" name="aftermethod" finished-at="2021-11-23T20:43:27 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.mystore.TestCases.AccountCreationPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
