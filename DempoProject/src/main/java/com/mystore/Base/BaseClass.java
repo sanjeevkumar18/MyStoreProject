@@ -70,11 +70,7 @@ public class BaseClass {
 			//driver = new InternetExplorerDriver();
 			driver.set(new InternetExplorerDriver());
 		}
-		/*
-		 * else if(Browsername.equalsIgnoreCase("Chromium")) {
-		 * WebDriverManager.chromiumdriver().setup(); driver.set(new
-		 * ChromiumDriverManager()); }
-		 */
+		
 		
 		
 		
